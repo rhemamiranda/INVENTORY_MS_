@@ -48,12 +48,11 @@ Public Class Login
         Conn.Open()
     End Sub
 
-    Private Sub txtbx_password_MouseDown(sender As Object, e As MouseEventArgs) Handles txtbx_password.MouseDown
+    Private Sub pic_eye_MouseDown(sender As Object, e As MouseEventArgs) Handles pic_eye.MouseDown
         txtbx_password.PasswordChar = ""
     End Sub
 
-    Private Sub txtbx_password_MouseUp(sender As Object, e As MouseEventArgs) Handles txtbx_password.MouseUp
+    Private Sub pic_eye_MouseUp(sender As Object, e As MouseEventArgs) Handles pic_eye.MouseUp
         txtbx_password.PasswordChar = "●"
     End Sub
-
 End Class
